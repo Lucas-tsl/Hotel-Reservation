@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">LT HOTEL</a>
@@ -48,9 +49,7 @@
         </div>
     </nav>
 
-
-
-        <!-- Modal -->
+    <!-- Login -->
     <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -76,14 +75,13 @@
                             <a href="javascript: void(0)" class="text-secondary text-decoration-none">Forgot Password</a>
                         </div>
                     </div>
-                    </div>
                 </form>
             </div>
         </div>
     </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="RegisterModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <!-- Register -->
+    <div class="modal fade" id="RegisterModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <form>
@@ -105,13 +103,13 @@
                                     <label class="form-label">Name</label>
                                     <input type="text" class="form-control shadow-none">
                                 </div>
-                                <div class="col-md-6 p-0">
+                                <div class="col-md-6 p-0 mb-3">
                                     <label class="form-label">Email</label>
                                     <input type="email" class="form-control shadow-none">
                                 </div>
                                 <div class="col-md-6 ps-0 mb-3">
                                     <label class="form-label">Phone</label>
-                                    <input type="number" class="form-control shadow-none">
+                                    <input type="phone" class="form-control shadow-none">
                                 </div>
                                 <div class="col-md-6 p-0 mb-3">
                                     <label class="form-label">Picture</label>
@@ -139,19 +137,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="mb-3">
-                            <label class="form-label">Email address</label>
-                            <input type="email" class="form-control shadow-none">
+                        <div class="text-center my-1">
+                            <button type="submit" class="btn btn-dark shadow-none me-lg-2 me-3">REGISTER</button>
                         </div>
-                        <div class="mb-4">
-                            <label class="form-label">Password</label>
-                            <input type="password" class="form-control shadow-none">
-                        </div>
-                        <div class="d-flex align-items-center justify-content-between">
-                            <button type="submit" class="btn btn-dark shadow-none me-lg-2 me-3">LOGIN</button>
-                            <a href="javascript: void(0)" class="text-secondary text-decoration-none">Forgot Password</a>
-                        </div> -->
-                    </div>
                     </div>
                 </form>
             </div>
