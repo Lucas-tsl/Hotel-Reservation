@@ -11,3 +11,16 @@
 .custom-bg:hover {
     background-color: #279e;
 }
+
+.avaibility-form{
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 575px){
+    .avaibility-form{
+        margin-top: 25px;
+        padding: 0 35px;
+    }
+}
