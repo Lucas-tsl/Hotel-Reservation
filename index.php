@@ -214,7 +214,26 @@
         </div>
     </div>
 
-    
+    <!-- Our Rooms -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">Our Rooms</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 my-3">
+            <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+                <img src="images/rooms/1.png" class="card-img-top">
+                <div class="card-body">
+                    <h5>Simple Room Name</h5>
+                    <h6>$2000</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div> 
+            </div>
+            <div class="col-lg-12 text-center mt-5">
+                <a href="" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Rooms >>></a>
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
