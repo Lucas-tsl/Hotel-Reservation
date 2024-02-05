@@ -263,6 +263,7 @@
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>    
+                                <i class="bi bi-star-fill text-warning"></i>    
                             </span>
                         </div>
 
@@ -318,6 +319,7 @@
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>    
+                                <i class="bi bi-star-fill text-warning"></i>    
                             </span>
                         </div>
 
@@ -330,7 +332,6 @@
             </div>
 
             <!-- Third -->
-
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
                     <img src="images/rooms/1.png" class="card-img-top">
@@ -374,6 +375,7 @@
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>    
+                                <i class="bi bi-star-fill text-warning"></i>    
                             </span>
                         </div>
 
@@ -390,19 +392,153 @@
         </div>
     </div>
 
+
+    <!-- Our Facilities -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font"> Our Facilities </h2>
+    <div class="container">
+        <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="images/facilities/wifi.svg" width="80px" alt="Wifi-icon">
+                <h5 class="mt-3">Wifi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="images/facilities/wifi.svg" width="80px" alt="Wifi-icon">
+                <h5 class="mt-3">Wifi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="images/facilities/wifi.svg" width="80px" alt="Wifi-icon">
+                <h5 class="mt-3">Wifi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="images/facilities/wifi.svg" width="80px" alt="Wifi-icon">
+                <h5 class="mt-3">Wifi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
+                <img src="images/facilities/wifi.svg" width="80px" alt="Wifi-icon">
+                <h5 class="mt-3">Wifi</h5>
+            </div>
+            <div class="col-lg-12 text-center mt-5">
+                <a href="" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Facilities >>></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font"> Our Testimonials </h2>
+    <div class="container mt-5">
+        <div class="swiper swiper-testimonials">
+            <div class="swiper-wrapper mb-5">
+
+                <div class="swiper-slide bg-white p-4">
+
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="images/features/star.svg" width="30px" alt="star">
+                        <h6 class="m-0 ms-2">Random User 1</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tempore itaque quas, temporibus eum inventore vel distinctio
+                        doloremque in totam corporis?
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>    
+                        <i class="bi bi-star-fill text-warning"></i>  
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="images/features/star.svg" width="30px" alt="star">
+                        <h6 class="m-0 ms-2">Random User 1</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tempore itaque quas, temporibus eum inventore vel distinctio
+                        doloremque in totam corporis?
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>    
+                        <i class="bi bi-star-fill text-warning"></i>  
+                    </div>
+                </div>
+                <div class="swiper-slide bg-white p-4">
+
+                    <div class="profile d-flex align-items-center mb-3">
+                        <img src="images/features/star.svg" width="30px" alt="star">
+                        <h6 class="m-0 ms-2">Random User 1</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tempore itaque quas, temporibus eum inventore vel distinctio
+                        doloremque in totam corporis?
+                    </p>
+                    <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>    
+                        <i class="bi bi-star-fill text-warning"></i>  
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    
+    <br><br><br>
+    <br><br><br>
+
+    
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Initialize Carousel -->
     <script>
         var swiper = new Swiper(".swiper-container", {
-        spaceBetween: 30,
-        effect: "fade",
-        loop: true, 
-        autoplay: {
-            display: 3500, 
-            diseableInteraction: false,
-        }
+            spaceBetween: 30,
+            effect: "fade",
+            loop: true, 
+            autoplay: {
+                display: 3500, 
+                diseableInteraction: false,
+            }
+        });
+
+        var swiper = new Swiper(".swiper-testimonials", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            slidesPerView: "3",
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, 
+                },
+                640: {
+                    slidesPerView: 1, 
+                },
+                768: {
+                    slidesPerView: 2, 
+                },
+                1024: {
+                    slidesPerView: 3, 
+                },
+            }
         });
     </script>
 
