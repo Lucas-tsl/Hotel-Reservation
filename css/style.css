@@ -7,9 +7,11 @@
 
 .custom-bg {
     background-color: #2ec1ac;
+    border: 1px #2ec1ac;
 }
 .custom-bg:hover {
     background-color: #279e;
+    border-color:  #279e ;
 }
 
 .avaibility-form{
