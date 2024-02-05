@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LT Hotel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -480,15 +480,55 @@
                         <i class="bi bi-star-fill text-warning"></i>  
                     </div>
                 </div>
-                
             </div>
-
-
-
             <div class="swiper-pagination"></div>
         </div>
     </div>
-    
+
+    <!-- Reach Us -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font"> Reach Us</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+            <iframe height="350px" class="w-100 rounded"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.7794428371612!2d-1.7629802237993644!3d46.4926795642327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4804680f37895185%3A0x136bb9ea7ae6df57!2sRue%20Lucas%2C%2085100%20Les%20Sables-d&#39;Olonne!5e0!3m2!1sfr!2sfr!4v1707170492492!5m2!1sfr!2sfr"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-4 col-md-4" >
+                <div class="bg-white p-4 rounded mb-4">
+                    <h5>Call Us</h5>
+                    <a href="tel:0665162128" class="d-inline-block mb-2 text-decoration-none text-dark">
+                        <i class="bi bi-telephone-fill"></i>
+                        06 65 16 21 28
+                    </a>
+                </div>
+                <div class="bg-white p-4 rounded mb-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-instagram"></i>
+                            Instagram
+                        </span>
+                    </a>
+                    <br>
+                    <a href="#" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                        <i class="bi bi-whatsapp"></i>
+                            Whatsapp
+                        </span>
+                    </a>
+                    <br>
+                    <a href="#" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-tiktok"></i>
+                            Tik Tok
+                        </span>
+                    </a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <br><br><br>
     <br><br><br>
 
