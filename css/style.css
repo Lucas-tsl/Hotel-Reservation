@@ -1,3 +1,8 @@
+:root{
+    --teal: #2ec1ac;
+    --teal_hover: #279e ;
+}
+
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -5,13 +10,19 @@
     font-family: 'Merienda', cursive;
 }
 
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
 .custom-bg {
-    background-color: #2ec1ac;
-    border: 1px #2ec1ac;
+    background-color: var(--teal);
+    border: 1px var(--teal);
 }
 .custom-bg:hover {
-    background-color: #279e;
-    border-color:  #279e ;
+    background-color: var(--teal_hover);
+    border-color: var(--teal_hover);
 }
 
 .avaibility-form{
@@ -26,3 +37,5 @@
         padding: 0 35px;
     }
 }
+
+
