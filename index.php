@@ -188,6 +188,15 @@
                                 Rooom heater
                             </span>
                         </div>
+                        <div class="guest mb-4">
+                            <h6 class="mb-1">Guest</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap lh-base">
+                                5 Adults
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap lh-base">
+                                4 Children
+                            </span>
+                        </div>
                         <div class="rating mb-4">
                         <h6 class="mb-1">Rating</h6>
                             <span class="badge rounded-pill bg-light">
@@ -206,7 +215,7 @@
                     </div>
                 </div> 
             </div>
-
+            
             <!-- Third -->
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
@@ -244,6 +253,15 @@
                                 Rooom heater
                             </span>
                         </div>
+                        <div class="guest mb-4">
+                            <h6 class="mb-1">Guest</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap lh-base">
+                                5 Adults
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap lh-base">
+                                4 Children
+                            </span>
+                        </div>
                         <div class="rating mb-4">
                         <h6 class="mb-1">Rating</h6>
                             <span class="badge rounded-pill bg-light">
@@ -262,10 +280,8 @@
                     </div>
                 </div> 
             </div>
-            <div class="col-lg-12 text-center mt-5">
-                <a href="" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Rooms >>></a>
-            </div>
-        </div>
+
+            
     </div>
 
 
