@@ -215,7 +215,7 @@
                     </div>
                 </div> 
             </div>
-            
+
             <!-- Third -->
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
@@ -280,8 +280,7 @@
                     </div>
                 </div> 
             </div>
-
-            
+        </div>     
     </div>
 
 
