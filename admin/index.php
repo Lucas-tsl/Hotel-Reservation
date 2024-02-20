@@ -1,4 +1,12 @@
-<?php require('inc/db-config.php');?>
+<?php 
+    require('inc/essentials.php');
+    require('inc/db-config.php');
+    
+    session_start();
+    if((isset($_SESSION['adminLogin']) && $_SESSION['adminLogin'] == true)){
+        redirect('dashboard.php');
+    } 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,8 +15,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login Panel</title>
-    <?php require('inc/links.php');?>
+    <?php require('inc/links.php');?>  
 </head>
+
 <body class="bg-light">
     <div class="login-form text-center rounded bg-white shadow overflow-hidden">
         <form method="POST">
@@ -29,20 +38,23 @@
         if(isset($_POST['login']))
         {
             $frm_data = filtration($_POST);
-    
-            $query = "SELECT $ FROM 'admin_cred' WHERE 'admin_name' = ? AND 'admin_pass' = ?";
+            $query = "SELECT * FROM `admin_cred` WHERE `admin_name`= ? AND `admin_pass` = ?";
             $values = [$frm_data['admin_name'],$frm_data['admin_pass']];
-            
-            $res = select($queries, $values, "ss");
-            print_r($res);
-            
-           
-           
-            
+            $res = select($query, $values, "ss");
+            // print_r($res); 
+
+            if($res->num_rows==1){
+                $row=mysqli_fetch_assoc($res);
+                
+                $_SESSION['adminLogin'] = true; 
+                $_SESSION['adminId'] = $row['sr_no'];
+                redirect('dashboard.php');
+            }
+
+            else{
+                alert('error', 'Login failed - Invalid Credentials !');
+            }
         }
-        
-        
-    
     ?>
 
     <?php require('inc/scripts.php');?>

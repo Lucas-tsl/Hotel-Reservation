@@ -17,28 +17,28 @@
             $data[$key] = htmlspecialchars($value); 
             $data[$key] = strip_tags($value);
         }
-        return $data
+        return $data;
 
     }
 
-    function select ($sql, $values, $datatypes){
+    function select($sql, $values, $datatypes){
         $con = $GLOBALS['con'];
         if($stmt = mysqli_prepare($con, $sql))
         {
-            mysqli_stmt_bind_prepare($stmt, $datatypes,...$values);
-            if(mysqli_tmt_execute($stmt)){
-                $res= mysqli_stmt_get_result($stmt);
+            mysqli_stmt_bind_param($stmt, $datatypes,...$values);
+            if(mysqli_stmt_execute($stmt)){
+                $res = mysqli_stmt_get_result($stmt);
+                mysqli_stmt_close($stmt);
                 return $res;
-                mysqli_stmt_close($stmt);
             }
-            else{
+            else {
                 mysqli_stmt_close($stmt);
-                die("Query cannot be executed - Select")
+                die("Query cannot be executed - Select");
             }
           
         }
         else{
-            die("Query cannot be prepared - Select")
+            die("Query cannot be prepared - Select");
         }
     }
 ?>
